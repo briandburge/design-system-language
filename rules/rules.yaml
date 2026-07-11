@@ -1,0 +1,227 @@
+version: 1.0.0
+rules:
+  - id: DL-001
+    category: capitalization
+    title: "Sentence case headings"
+    severity: warning
+    specification: "Use sentence case for all editorial and interface headings."
+  - id: DL-002
+    category: capitalization
+    title: "Sentence case UI labels"
+    severity: warning
+    specification: "Use sentence case for buttons, navigation, labels, captions, and dialog titles."
+  - id: DL-003
+    category: capitalization
+    title: "Respect proper nouns"
+    severity: error
+    specification: "Preserve official capitalization for proper nouns, products, companies, and acronyms."
+  - id: DL-010
+    category: punctuation
+    title: "Oxford comma"
+    severity: recommendation
+    specification: "Use the Oxford comma in lists of three or more items."
+  - id: DL-011
+    category: punctuation
+    title: "Avoid em dashes"
+    severity: warning
+    specification: "Avoid em dashes in normal editorial copy. Prefer a period, comma, colon, or parentheses."
+  - id: DL-012
+    category: punctuation
+    title: "Use curly quotes"
+    severity: recommendation
+    specification: "Use curly quotation marks in published prose."
+  - id: DL-013
+    category: punctuation
+    title: "Use en dashes for ranges"
+    severity: recommendation
+    specification: "Use an en dash for numeric and date ranges."
+  - id: DL-014
+    category: punctuation
+    title: "Limit exclamation marks"
+    severity: warning
+    specification: "Use exclamation marks rarely and never repeat them."
+  - id: DL-020
+    category: numbers
+    title: "Number style"
+    severity: recommendation
+    specification: "Spell out one through nine in body copy. Use numerals for 10 and above."
+  - id: DL-021
+    category: numbers
+    title: "Numerals with units"
+    severity: warning
+    specification: "Use numerals with units, measurements, percentages, ages, and time."
+  - id: DL-022
+    category: dates
+    title: "Unambiguous dates"
+    severity: warning
+    specification: "Use a written month format for editorial dates."
+  - id: DL-030
+    category: lists
+    title: "Parallel lists"
+    severity: warning
+    specification: "Use parallel grammatical structure within a list."
+  - id: DL-031
+    category: lists
+    title: "Focused lists"
+    severity: recommendation
+    specification: "Regroup lists longer than seven items when possible."
+  - id: DL-032
+    category: links
+    title: "Descriptive links"
+    severity: warning
+    specification: "Use descriptive link text. Avoid generic labels such as Click here."
+  - id: DL-040
+    category: voice
+    title: "Active voice"
+    severity: recommendation
+    specification: "Prefer active voice when it makes ownership and action clearer."
+  - id: DL-041
+    category: voice
+    title: "Evidence over adjectives"
+    severity: warning
+    specification: "Replace promotional adjectives with facts, behavior, or outcomes."
+  - id: DL-042
+    category: voice
+    title: "Concrete language"
+    severity: warning
+    specification: "Prefer concrete nouns and active verbs over abstract corporate language."
+  - id: DL-043
+    category: voice
+    title: "Contractions allowed"
+    severity: recommendation
+    specification: "Use natural contractions in normal product and portfolio copy."
+  - id: DL-050
+    category: structure
+    title: "One idea per paragraph"
+    severity: warning
+    specification: "Keep each paragraph focused on one main idea."
+  - id: DL-051
+    category: structure
+    title: "Paragraph length"
+    severity: recommendation
+    specification: "Review paragraphs longer than four sentences."
+  - id: DL-052
+    category: structure
+    title: "Sentence length"
+    severity: recommendation
+    specification: "Review sentences longer than 28 words."
+  - id: DL-053
+    category: structure
+    title: "Front-load meaning"
+    severity: recommendation
+    specification: "Lead with the point, outcome, or decision."
+  - id: DL-054
+    category: structure
+    title: "Remove repetition"
+    severity: warning
+    specification: "Delete adjacent sentences that repeat the same idea."
+  - id: DL-060
+    category: natural-writing
+    title: "Avoid filler transitions"
+    severity: warning
+    specification: "Remove unnecessary transitions such as Additionally, Furthermore, Moreover, Importantly, and That said."
+  - id: DL-061
+    category: natural-writing
+    title: "Avoid false contrast"
+    severity: warning
+    specification: "Avoid the formula It is not about X. It is about Y unless the contrast is meaningful."
+  - id: DL-062
+    category: natural-writing
+    title: "Avoid empty triads"
+    severity: warning
+    specification: "Avoid generic three-part emphasis and repeated fragment sequences."
+  - id: DL-063
+    category: natural-writing
+    title: "Avoid generic openings"
+    severity: error
+    specification: "Avoid broad openings about a fast-paced world, changing technology, or the future of a topic."
+  - id: DL-064
+    category: natural-writing
+    title: "Avoid generic conclusions"
+    severity: warning
+    specification: "Avoid Ultimately, In conclusion, and repeated summary endings."
+  - id: DL-065
+    category: natural-writing
+    title: "Review inflated language"
+    severity: warning
+    specification: "Review leverage, unlock, harness, elevate, transformative, seamless, world-class, cutting-edge, journey, landscape, ecosystem, and solution."
+  - id: DL-066
+    category: natural-writing
+    title: "Preserve specificity"
+    severity: warning
+    specification: "Retain concrete details, constraints, tradeoffs, uncertainty, and author point of view."
+  - id: DL-070
+    category: readability
+    title: "Plain language"
+    severity: recommendation
+    specification: "Use the clearest familiar word that preserves meaning."
+  - id: DL-071
+    category: readability
+    title: "Reading level"
+    severity: recommendation
+    specification: "Target grade 8 to 10 for general web content."
+  - id: DL-072
+    category: accessibility
+    title: "Inclusive language"
+    severity: error
+    specification: "Avoid assumptions about identity, ability, family structure, location, or access."
+  - id: DL-073
+    category: accessibility
+    title: "Meaningful alt text"
+    severity: warning
+    specification: "Describe image purpose or information, not every visible detail."
+  - id: DL-080
+    category: headings
+    title: "Descriptive headings"
+    severity: warning
+    specification: "Use headings that predict the content below them."
+  - id: DL-081
+    category: headings
+    title: "Heading depth"
+    severity: recommendation
+    specification: "Limit heading hierarchy to three levels where practical."
+  - id: DL-090
+    category: buttons
+    title: "Verb-led buttons"
+    severity: warning
+    specification: "Use a verb-led label when the action is not obvious from context."
+  - id: DL-091
+    category: buttons
+    title: "Concise buttons"
+    severity: recommendation
+    specification: "Keep button labels to one to four words where practical."
+  - id: DL-092
+    category: navigation
+    title: "Stable navigation labels"
+    severity: error
+    specification: "Use the same label for the same destination throughout a product or site."
+  - id: DL-100
+    category: forms
+    title: "Persistent form labels"
+    severity: error
+    specification: "Do not use placeholder text as the only form label."
+  - id: DL-101
+    category: errors
+    title: "Actionable errors"
+    severity: error
+    specification: "Explain what happened and what the user can do next."
+  - id: DL-102
+    category: errors
+    title: "No blame"
+    severity: error
+    specification: "Do not blame the user in error messages."
+  - id: DL-103
+    category: empty-states
+    title: "Orient then act"
+    severity: warning
+    specification: "Explain the empty state and provide one clear next action."
+  - id: DL-110
+    category: portfolio
+    title: "Role clarity"
+    severity: warning
+    specification: "Clarify individual ownership, team contribution, and collaboration."
+  - id: DL-111
+    category: portfolio
+    title: "Outcome integrity"
+    severity: error
+    specification: "Use measured outcomes when available and observable outcomes when measurement is unavailable."

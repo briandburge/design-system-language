@@ -1,0 +1,29 @@
+version: 1.0.0
+review_terms:
+  marketing:
+    - leverage
+    - unlock
+    - harness
+    - elevate
+    - transformative
+    - seamless
+    - world-class
+    - cutting-edge
+    - journey
+    - landscape
+    - ecosystem
+    - solution
+  transitions:
+    - additionally
+    - furthermore
+    - moreover
+    - importantly
+    - that said
+  generic_openings:
+    - in today's fast-paced world
+    - as technology continues to evolve
+    - the future of
+  generic_endings:
+    - ultimately
+    - in conclusion
+    - at the end of the day

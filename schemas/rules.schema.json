@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Design Language rules",
+  "type": "object",
+  "required": [
+    "version",
+    "rules"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "title",
+          "severity",
+          "specification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^DL-\\d{3}$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "error",
+              "warning",
+              "recommendation"
+            ]
+          },
+          "specification": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

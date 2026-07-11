@@ -1,0 +1,1 @@
+Follow tokens/language.yaml.

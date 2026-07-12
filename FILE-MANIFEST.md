@@ -2,7 +2,6 @@
 
 - `.github/ISSUE_TEMPLATE/rule-proposal.md`
 - `.github/pull_request_template.md`
-- `.github/workflows/validate.yml`
 - `AGENTS.md`
 - `CHANGELOG.md`
 - `CODEX-HANDOFF.md`

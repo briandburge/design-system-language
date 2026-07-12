@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Removed the GitHub Actions validation workflow.
+
 - Registered public Design Language Auditor GPT.
 
 - Added project charter, vision, and non-goals.

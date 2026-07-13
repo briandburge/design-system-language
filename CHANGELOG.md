@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Renamed the GitHub repository from `design-system-language` to `design-language`.
+- Refreshed the Design Language Auditor knowledge bundle and instructions with the new repository URL.
 
 - Required the human-authorship signal score whenever users ask about AI or human writing indicators.
 - Added a human-readable rule reference and user-facing cited-rule summaries.

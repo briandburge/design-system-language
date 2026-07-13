@@ -56,7 +56,7 @@ Summarize repeated issues across the content.
 
 List only the rules cited in this audit. Include each rule ID, title, and plain-language meaning.
 
-Readable reference: https://github.com/briandburge/design-system-language/blob/main/docs/rule-reference.md
+Readable reference: https://github.com/briandburge/design-language/blob/main/docs/rule-reference.md
 
 Do not link users to the raw YAML unless they explicitly request the machine-readable registry.
 

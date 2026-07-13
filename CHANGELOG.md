@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added a directional human-authorship signal score for AI writing-pattern audits.
+- Expanded AI-pattern checks to include em dashes under DL-011 and repetition under DL-054.
+
 - Removed the GitHub Actions validation workflow.
 
 - Registered public Design Language Auditor GPT.

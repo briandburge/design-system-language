@@ -15,6 +15,16 @@
 - Highest-risk issue:
 - Strongest area:
 
+## Human-authorship signals
+
+Include this section only for AI writing-pattern audits.
+
+- Signal score: /10
+- Interpretation:
+- Sentences with relevant patterns:
+- Strongest human-authorship evidence:
+- Strongest formulaic pattern:
+
 ## Category scores
 
 | Category | Score | Notes |

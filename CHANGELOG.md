@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Renamed the GitHub repository from `design-system-language` to `design-language`.
+
 - Required the human-authorship signal score whenever users ask about AI or human writing indicators.
 - Added a human-readable rule reference and user-facing cited-rule summaries.
 

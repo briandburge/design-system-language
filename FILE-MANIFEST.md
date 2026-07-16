@@ -23,6 +23,7 @@
 - `audit/report-template.md`
 - `audit/rubric.md`
 - `audit/templates/quick-check.md`
+- `assets/leave-your-mark.webp`
 - `decisions/0001-sentence-case.md`
 - `decisions/0002-avoid-em-dashes.md`
 - `decisions/0003-audit-before-rewrite.md`

@@ -1,3 +1,7 @@
+![Leave your mark.](assets/leave-your-mark.webp)
+
+Artwork by [burge.design](https://www.instagram.com/burge.design/).
+
 # Design Language
 
 Design Language is a portable editorial and interface language system for human and AI-assisted workflows.

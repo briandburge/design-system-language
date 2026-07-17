@@ -12,6 +12,8 @@ Its purpose is practical: make content more consistent, easier to scan, and less
 
 Use the audit prompts in `audit/prompts/` with a document, website, interface, presentation, or case study. The auditor reports findings by rule ID and does not rewrite unless asked.
 
+For a guided audit, try the public [Design Language Auditor](https://chatgpt.com/g/g-6a52996c067481919f69cde33a25b22d-design-language-auditor) GPT.
+
 If you are evaluating a webpage created with Figma Make, the optional [Figma Make audit guide](docs/figma-make-audit-guide.md) provides a step-by-step workflow, version-pinned knowledge files, persistent guidelines, human-authorship signals, and approval checkpoints before revisions.
 
 ## Repository model
